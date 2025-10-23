@@ -25,13 +25,13 @@ for a test assignment for a vacancy at the company effektive-mobile
 ---
 
 ## Запуск в IDE (PyCharm)
-pytest --alluredir=allure-results   (сохранение результата тестов)
-allure serve allure-results   (вывод в HTML страницу)
+- pytest --alluredir=allure-results   (сохранение результата тестов)
+- allure serve allure-results   (вывод в HTML страницу)
 
 ## Завпуск в Docker из PyCharm
-docker build -t em-tests .   (сборка образа)
-docker run --rm -it -v "$(pwd)/allure-results:/app/allure-results" em-tests   (запуск тестов (с сохранением Allure-результатов на хосте))
-allure serve allure-results   (Генерация локального отчёта)
+- docker build -t em-tests .   (сборка образа)
+- docker run --rm -it -v "$(pwd)/allure-results:/app/allure-results" em-tests   (запуск тестов (с сохранением Allure-результатов на хосте))
+- allure serve allure-results   (Генерация локального отчёта)
 
 
 
