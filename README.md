@@ -1,5 +1,5 @@
 # effective-mobile-tests
-for a test assignment for a vacancy at the company effektive-mobile
+for a test assignment for a vacancy at the company effective-mobile
 
 #  Effective Mobile — Автоматические тесты
 
@@ -28,7 +28,7 @@ for a test assignment for a vacancy at the company effektive-mobile
 - pytest --alluredir=allure-results   (сохранение результата тестов)
 - allure serve allure-results   (вывод в HTML страницу)
 
-## Завпуск в Docker из PyCharm
+## Запуск в Docker из PyCharm
 - docker build -t em-tests .   (сборка образа)
 - docker run --rm -it -v "$(pwd)/allure-results:/app/allure-results" em-tests   (запуск тестов (с сохранением Allure-результатов на хосте))
 - allure serve allure-results   (Генерация локального отчёта)
